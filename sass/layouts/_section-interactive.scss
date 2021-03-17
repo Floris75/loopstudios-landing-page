@@ -1,0 +1,41 @@
+.interactive {
+    padding: 5% 2%;
+    & h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    & p {
+        padding: 5%;
+        text-align: center;
+        font-size: 1.1rem;
+        color: $very-dark-gray;
+    }
+}
+
+#interactive-img {
+    background-image: url("../../images/mobile/image-interactive.jpg");
+    background-size: cover;
+    width:inherit;
+    height:200px;
+    margin: 5%;
+}
+
+@media screen and (min-width: 940px) {
+    #interactive-img {
+    background-image: url("../../images/desktop/image-interactive.jpg");
+    height: 500px;
+    width: 60%;
+    }
+
+    .interactive > div {
+        position: relative;
+        & .contenu {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            background-color: $white;
+            padding: 3rem;
+        }
+    }
+}

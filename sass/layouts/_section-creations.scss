@@ -1,0 +1,202 @@
+.creation {
+    flex-direction: column;
+    & a {
+        color: $white;
+    }
+    & > div:first-child {
+        order: 1;
+    }
+    & > div:last-child {
+        order: 2;
+    }
+    & h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.button {
+    order: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    background-repeat: no-repeat;
+    position: relative;
+    height: 160px;
+    margin: 5%;
+    & h3 {
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        font-size: 1.7rem;
+        width: 60%;
+    }
+}
+
+#Deep {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-deep-earth.jpg");
+    background-size: cover;
+}
+
+#Night {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-night-arcade.jpg");
+    background-size: cover;
+}
+
+#Soccer {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-soccer-team.jpg");
+    background-size: cover;
+}
+
+#Grid {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-grid.jpg");
+    background-size: cover;
+}
+
+#From {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-from-above.jpg");
+    background-size: cover;
+}
+
+#Pocket {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-pocket-borealis.jpg");
+    background-size: cover;
+}
+
+#Curiosity {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-curiosity.jpg");
+    background-size: cover;
+}
+
+#Fisheye {
+    background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-fisheye.jpg");
+    background-size: cover;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 606px) {
+
+    .creation {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        & h2 {
+            text-align: left;
+            margin-left: 55px;
+        }
+    }
+
+    .image-contenaire {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        & a {
+            height: 450px;
+            width: 256px;
+            margin: 20px;
+            & .images {
+                margin: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .button {
+        order: 1;
+        width: 50%;
+        justify-content: flex-end;
+        & a {
+            margin-right: 60px;
+        }
+    }
+
+    .creation > div:first-child {
+        width: 50%;
+    }
+    
+    #Deep {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-deep-earth.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-deep-earth.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+
+    #Night {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-night-arcade.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-night-arcade.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #Soccer {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-soccer-team.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-soccer-team.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #Grid {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-grid.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-grid.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #From {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-from-above.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-from-above.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #Pocket {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-pocket-borealis.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-pocket-borealis.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #Curiosity {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-curiosity.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-curiosity.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+    
+    #Fisheye {
+        background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-fisheye.jpg");
+        &:hover{
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(256, 256, 256, 0.75)), url("../../images/desktop/image-fisheye.jpg");
+            & h3 {
+                color: $black;
+            }
+        }
+    }
+
+}

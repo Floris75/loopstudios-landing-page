@@ -1,0 +1,10 @@
+#button {
+    color: $black;
+    border: 1px solid $black;
+    padding: 2% 10%;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $black;
+        color: $white;
+    }
+}
