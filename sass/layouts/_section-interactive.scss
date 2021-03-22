@@ -13,7 +13,7 @@
 }
 
 #interactive-img {
-    background-image: url("../../images/mobile/image-interactive.jpg");
+    background-image: url("../images/mobile/image-interactive.jpg");
     background-size: cover;
     width:inherit;
     height:200px;
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 940px) {
     #interactive-img {
-    background-image: url("../../images/desktop/image-interactive.jpg");
+    background-image: url("../images/desktop/image-interactive.jpg");
     height: 500px;
     width: 60%;
     }

@@ -1,11 +1,11 @@
 /* Typographie */
 @font-face {
   font-family: "Josefin Sans";
-  src: url("../../fonts/JosefinSans-Light.ttf");
+  src: url("../fonts/JosefinSans-Light.ttf");
 }
 @font-face {
   font-family: "Alata";
-  src: url("../../fonts/Alata-Regular.ttf");
+  src: url("../fonts/Alata-Regular.ttf");
 }
 /* Resets */
 * {
@@ -115,7 +115,7 @@ header .flex {
 }
 /* Header */
 header {
-  background-image: url("../../images/mobile/image-hero.jpg");
+  background-image: url("../images/mobile/image-hero.jpg");
   background-position-x: center;
   background-size: cover;
   height: 100vh;
@@ -136,7 +136,7 @@ header h1 {
 
 @media screen and (min-width: 1100px) {
   header {
-    background-image: url("../../images/desktop/image-hero.jpg");
+    background-image: url("../images/desktop/image-hero.jpg");
     background-position-x: center;
     background-size: cover;
     padding: 25px 50px;
@@ -176,7 +176,7 @@ header h1 {
 }
 
 #interactive-img {
-  background-image: url("../../images/mobile/image-interactive.jpg");
+  background-image: url("../images/mobile/image-interactive.jpg");
   background-size: cover;
   width: inherit;
   height: 200px;
@@ -185,7 +185,7 @@ header h1 {
 
 @media screen and (min-width: 940px) {
   #interactive-img {
-    background-image: url("../../images/desktop/image-interactive.jpg");
+    background-image: url("../images/desktop/image-interactive.jpg");
     height: 500px;
     width: 60%;
   }
@@ -240,42 +240,42 @@ header h1 {
 }
 
 #Deep {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-deep-earth.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-deep-earth.jpg");
   background-size: cover;
 }
 
 #Night {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-night-arcade.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-night-arcade.jpg");
   background-size: cover;
 }
 
 #Soccer {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-soccer-team.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-soccer-team.jpg");
   background-size: cover;
 }
 
 #Grid {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-grid.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-grid.jpg");
   background-size: cover;
 }
 
 #From {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-from-above.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-from-above.jpg");
   background-size: cover;
 }
 
 #Pocket {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-pocket-borealis.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-pocket-borealis.jpg");
   background-size: cover;
 }
 
 #Curiosity {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-curiosity.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-curiosity.jpg");
   background-size: cover;
 }
 
 #Fisheye {
-  background: linear-gradient(to right, #0007, #fff0), url("../../images/mobile/image-fisheye.jpg");
+  background: linear-gradient(to right, #0007, #fff0), url("../images/mobile/image-fisheye.jpg");
   background-size: cover;
 }
 
@@ -322,80 +322,80 @@ header h1 {
   }
 
   #Deep {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-deep-earth.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-deep-earth.jpg");
   }
   #Deep:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-deep-earth.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-deep-earth.jpg");
   }
   #Deep:hover h3 {
     color: black;
   }
 
   #Night {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-night-arcade.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-night-arcade.jpg");
   }
   #Night:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-night-arcade.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-night-arcade.jpg");
   }
   #Night:hover h3 {
     color: black;
   }
 
   #Soccer {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-soccer-team.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-soccer-team.jpg");
   }
   #Soccer:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-soccer-team.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-soccer-team.jpg");
   }
   #Soccer:hover h3 {
     color: black;
   }
 
   #Grid {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-grid.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-grid.jpg");
   }
   #Grid:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-grid.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-grid.jpg");
   }
   #Grid:hover h3 {
     color: black;
   }
 
   #From {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-from-above.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-from-above.jpg");
   }
   #From:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-from-above.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-from-above.jpg");
   }
   #From:hover h3 {
     color: black;
   }
 
   #Pocket {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-pocket-borealis.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-pocket-borealis.jpg");
   }
   #Pocket:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-pocket-borealis.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-pocket-borealis.jpg");
   }
   #Pocket:hover h3 {
     color: black;
   }
 
   #Curiosity {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-curiosity.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-curiosity.jpg");
   }
   #Curiosity:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-curiosity.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-curiosity.jpg");
   }
   #Curiosity:hover h3 {
     color: black;
   }
 
   #Fisheye {
-    background: linear-gradient(to right, #0007, #fff0), url("../../images/desktop/image-fisheye.jpg");
+    background: linear-gradient(to right, #0007, #fff0), url("../images/desktop/image-fisheye.jpg");
   }
   #Fisheye:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../../images/desktop/image-fisheye.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.75)), url("../images/desktop/image-fisheye.jpg");
   }
   #Fisheye:hover h3 {
     color: black;
